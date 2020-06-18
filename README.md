@@ -18,8 +18,10 @@ export GOPATH="${HOME}/.go
 ```
 
 ```
-go install github.com/kse-clearhaus/clrhs-cli/cmd/clrhs
+go get -u github.com/kse-clearhaus/clrhs-cli/cmd/clrhs
 ```
+
+Either add `$GOPATH/bin/` to `PATH` or manually invoke it from there.
 
 ## Usage
 
